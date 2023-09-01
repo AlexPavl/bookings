@@ -30,9 +30,13 @@ func NewHandlers(r *Repository) {
 
 // Home is the main page handler
 func (m *Repository) Home(w http.ResponseWriter, r *http.Request) {
+	stringMap := make(map[string]string)
+	stringMap["test"] = "Your Ip had been copied!"
 	remoteIp := r.RemoteAddr
 	m.App.Session.Put(r.Context(), "remote_ip", remoteIp)
-	render.RenderTemplate(w, "home.page.tmpl", &models.TemplateData{})
+	render.RenderTemplate(w, "home.page.tmpl", &models.TemplateData{
+		StringMap: stringMap,
+	})
 }
 
 // addValues adds two integers and return the sum

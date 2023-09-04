@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>My nice page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <style>
+            .my-footer {
+                background-color: blue;
+                margin-top: 1.5em;
+                padding: 1em;
+                height: 5em;
+            }
+        </style>
+    </head>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Rooms
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="generals.html">General's Quarters</a></li>
+                  <li><a class="dropdown-item" href="majors.html">Major's Suite</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reservations.html" aria-disabled="true">Book now</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <body>
+        <div id="main-carousel" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="static/images/woman-laptop.png" class="d-block w-100" alt="Woman and laptop">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Woman and laptop</h5>
+                    <p>Just the first slide in the carousel.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img src="static/images/outside.png" class="d-block w-100" alt="Outside">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>House's outside view</h5>
+                    <p>Just the second slide in the carousel.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="10000">
+                <img src="static/images/tray.png" class="d-block w-100" alt="Coffee">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Coffee on the bed</h5>
+                    <p>Just the third slide in the carousel.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#main-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <h1 class="text-center mt-4">Welcome to Fort Smith Bed and Breakfast</h1>
+                    <p class="text-center">
+                        Your home away from home, set on the majestic water Somewhere
+                        Your home away from home, set on the majestic water Somewhere
+                        Your home away from home, set on the majestic water Somewhere
+                        Your home away from home, set on the majestic water Somewhere
+                        Your home away from home, set on the majestic water Somewhere
+                        Your home away from home, set on the majestic water Somewhere
+                        Your home away from home, set on the majestic water Somewhere
+                        Your home away from home, set on the majestic water Somewhere
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col text-center">
+                    <a href="/make-reservation" class="btn btn-success">Make Reservation Now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-footer">
+            <div class="col">
+                Left
+            </div>
+
+            <div class="col">
+                Middle
+            </div>
+
+            <div class="col">
+                Right
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        -->
+    </body>
+</html>
